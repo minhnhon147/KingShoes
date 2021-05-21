@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <title>LIÊN HỆ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link rel="stylesheet" href="gioithieu.css" />
+    <link rel="stylesheet" href="lienhe.css" />
+    <link rel="stylesheet" href="lib/fontawesome/css/all.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="lib/ionicons-1.5.2/ionicons-1.5.2/css/ionicons.css"
+    />
+    <link rel="stylesheet" href="lib/fontawesome/css/fontawesome.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <section class="header">
+      <div class="header-top">
+        <div class="container-fluid">
+          <div class="col-12 text-right">
+            <p class="user-check d-inline">
+              <a href="">
+                <i class="fa fa-users" aria-hidden="true"></i>Check user
+              </a>
+            </p>
+            <p class="hotline-top d-inline">
+              <a href="#"> <i class="fa fa-phone"></i>Hotline: 0971037601 </a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="navigation">
+        <div class="container-fluid">
+          <div class="navigation-column left">
+            <div class="logo">
+              <a href="index.html">
+                <img src="picture/logo.png" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="navigation-column center">
+            <ul class="main-menu">
+              <li><a href="gioithieu.html">Giới thiệu</a></li>             
+              <li class="menu-item menu-item-has-children dropdown 1">
+                <a href="">Nike</a>
+                <ul class="sub-menu">
+                  <li class="menu-item"><a href="nike/nam-c11.html">Nam</a></li>
+                  <li class="menu-item"><a href="nike/nu-c106.html">Nữ</a></li>
+                </ul>
+              </li>
+              <li class="menu-item menu-item-has-children dropdown 1">
+                <a href="">Yeezy</a>
+                <ul class="sub-menu">
+                  <li class="menu-item">
+                    <a href="yeezy/yeezy-boost-350-c117.html"
+                      >YEEZY BOOST 350</a
+                    >
+                  </li>
+                  <li class="menu-item">
+                    <a href="yeezy/yeezy-boost-700-c119.html"
+                      >YEEZY BOOST 700</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-item menu-item-has-children dropdown 1">
+                <a href="">Jordan</a>
+                <ul class="sub-menu">
+                  <li class="menu-item">
+                    <a href="airjordan.html">AIR JORDAN</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-item menu-item-has-children dropdown 1">
+                <a href="">Other Brands</a>
+                <ul class="sub-menu">
+                  <li class="menu-item">
+                    <a href="other-brands/sneaker-authentic-c110.html"
+                      >SNEAKER AUTHENTIC</a
+                    >
+                  </li>
+                  <li class="menu-item">
+                    <a href="other-brands/dep-authentic-c125.html"
+                      >Dép Authentic</a
+                    >
+                  </li>
+                  <li class="menu-item">
+                    <a
+                      href="other-brands/crep-protect-ve-sinh-giay-sneaker-c115.html"
+                      >Crep Protect vệ sinh giày Sneaker</a
+                    >
+                  </li>
+                  <li class="menu-item">
+                    <a href="other-brands/box-hop-dung-giay-sneaker-c123.html"
+                      >Box hộp đựng giày Sneaker</a
+                    >
+                  </li>
+                </ul>
+                <div class="clear"></div>
+              </li>
+              <li class=""><a href="">Sale</a></li>
+              <li class=""><a href="">Spa Giày</a></li>
+              <li class=""><a href="">King & Queen</a></li>
+              <li class=""><a href="lienhe.html">Liên hệ</a></li>
+            </ul>
+            <div class="clear"></div>
+          </div>
+          <div class="column-right-mobile">
+            <div class="search-mobile">
+              <ion-icon name="search-outline"></ion-icon>
+            </div>
+            <div class="cart-mobile">
+              <ion-icon name="cart-outline"></ion-icon>
+            </div>
+            <div class="button-menu-mobile">
+              <i class="fas fa-bars"></i>
+            </div>
+            <div class="overlay-mobile" id="overlay"></div>
+          </div>
+          <div class="menu-mobile">
+            <div class="search-header-mobile">
+              <!-- <input type="text" placeholder="Nhập từ cần tìm"> -->
+              <h5>Danh mục</h5>
+              <ion-icon id="closeicon" name="close-outline"></ion-icon>
+            </div>
+            <ul class="main-menu-mobile">
+              <li id="intro-mobile">
+                <p class="show-border">
+                  <a href="gioithieu.html">Giới thiệu</a>
+                </p>
+              </li>
+              <li class="menu-item-mobile" id="child-1">
+                <p class="show-border">
+                  Adidas<ion-icon name="chevron-down-outline"></ion-icon>
+                </p>
+                <ul class="sub-menu-mobile" id="menuchild-1">
+                  <li class="item-mobile">
+                    <a href="adidas/nam-c107.html">Nam</a>
+                  </li>
+                  <li class="item-mobile">
+                    <a href="adidas/nu-c6.html">Nữ</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-item-mobile" id="child-2">
+                <p class="show-border">
+                  Nike<ion-icon name="chevron-down-outline"></ion-icon>
+                </p>
+                <ul class="sub-menu-mobile" id="menuchild-2">
+                  <li class="item-mobile">
+                    <a href="nike/nam-c11.html">Nam</a>
+                  </li>
+                  <li class="item-mobile">
+                    <a href="nike/nu-c106.html">Nữ</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-item-mobile" id="child-3">
+                <p class="show-border">
+                  Yeezy<ion-icon name="chevron-down-outline"></ion-icon>
+                </p>
+                <ul class="sub-menu-mobile" id="menuchild-3">
+                  <li class="item-mobile">
+                    <a href="yeezy/yeezy-boost-350-c117.html"
+                      >YEEZY BOOST 350</a
+                    >
+                  </li>
+                  <li class="item-mobile">
+                    <a href="yeezy/yeezy-boost-700-c119.html"
+                      >YEEZY BOOST 700</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-item-mobile" id="child-4">
+                <p class="show-border">
+                  Jordan<ion-icon name="chevron-down-outline"></ion-icon>
+                </p>
+                <ul class="sub-menu-mobile" id="menuchild-4">
+                  <li class="item-mobile">
+                    <a href="airjordan.html">AIR JORDAN</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-item-mobile" id="child-5">
+                <p class="show-border">
+                  Other Brands<ion-icon name="chevron-down-outline"></ion-icon>
+                </p>
+                <ul class="sub-menu-mobile" id="menuchild-5">
+                  <li class="item-mobile">
+                    <a href="other-brands/sneaker-authentic-c110.html"
+                      >SNEAKER AUTHENTIC</a
+                    >
+                  </li>
+                  <li class="item-mobile">
+                    <a href="other-brands/dep-authentic-c125.html"
+                      >Dép Authentic</a
+                    >
+                  </li>
+                  <li class="item-mobile">
+                    <a
+                      href="other-brands/crep-protect-ve-sinh-giay-sneaker-c115.html"
+                      >Crep Protect vệ sinh giày Sneaker</a
+                    >
+                  </li>
+                  <li class="item-mobile">
+                    <a href="other-brands/box-hop-dung-giay-sneaker-c123.html"
+                      >Box hộp đựng giày Sneaker</a
+                    >
+                  </li>
+                </ul>
+                <div class="clear"></div>
+              </li>
+              <li class=""><p class="show-border">Sale</p></li>
+              <li class=""><p class="show-border">Spa Giày</p></li>
+              <li class=""><p class="show-border">King & Queen</p></li>
+              <li class=""><p class="show-border">Liên hệ</p></li>
+            </ul>
+          </div>
+          <div class="navigation-column right">
+            <div class="search-box">
+              <input type="text" class="search-txt" placeholder="search..." />
+              <a href="" class="search-btn">
+                <i class="fas fa-search"></i>
+              </a>
+            </div>
+            <div class="cart">
+              <a href="" class="cart-toggle">
+                <!-- <span class="span">
+								<i>
+									<b>0</b>
+								</i>
+							</span> -->
+                <i class="fas fa-shopping-cart"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="titlepage">
+              <h2>Liên hệ</h2>
+              <div id="contact-map" class="iframe">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d979.7972565464476!2d106.65311782917742!3d10.796829999519247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529a490ac0839%3A0x95c47664bcd7d113!2zS0lORyBTSE9FUyAtIEPhu61hIGjDoG5nIGdpw6B5IFNuZWFrZXIgY2jDrW5oIGjDo25nIHThuqFpIEhDTQ!5e0!3m2!1sen!2s!4v1546395346239"
+                  width="600"
+                  height="450"
+                  style="border: 0"
+                  allowfullscreen=""
+                ></iframe>
+              </div>
+              <div class="ps-container">
+                <div class="row row-flex">
+                  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="ps-contact__block">
+                      <header>
+                        <h3>
+                          KING SHOES Trang Thông Tin Chính Thức<span>
+                            Thông tin liên hệ</span
+                          >
+                        </h3>
+                      </header>
+                      <footer>
+                        <p>
+                          <strong
+                            >KINGSHOES.VN Trang Thông Tin Chính Thức.</strong
+                          >
+                        </p>
+
+                        <p>
+                          ⛪&nbsp;<strong
+                            >Địa chỉ: 192/2 Nguyễn Thái Bình, Phường 12, Quận
+                            Tân Bình, Thành phố Hồ Chí Minh</strong
+                          >
+                        </p>
+
+                        <p>
+                          <strong>Email : cskh.kingshoes.vn@gmail.com</strong>
+                        </p>
+
+                        <p>
+                          <a href="https://kingshoes.vn/" target="_blank"
+                            ><strong>https://kingshoes.vn/</strong></a
+                          >
+                        </p>
+
+                        <p>
+                          <a
+                            href="https://instagram.com/kingshoes.vn"
+                            target="_blank"
+                            ><strong
+                              >https://instagram.com/KingShoes.vn</strong
+                            ></a
+                          >
+                        </p>
+
+                        <p>
+                          <a
+                            href="https://www.facebook.com/Kingshoes.vnn/"
+                            target="_blank"
+                            ><strong
+                              >https://facebook.com/pg/www.KingShoes.vn</strong
+                            ></a
+                          >
+                        </p>
+
+                        <p>
+                          <a
+                            href="https://www.youtube.com/channel/UCvs72TGa6W0Y8FG6Z6elgAQ"
+                            target="_blank"
+                            ><strong
+                              >https://www.youtube.com/www.KingShoes.vn</strong
+                            ></a
+                          >
+                        </p>
+
+                        <p>
+                          <a
+                            href="http://bit.ly/KINGSHOES_map"
+                            id="KINGSHOES_map"
+                            target="_blank"
+                            title="KINGSHOES_map"
+                            ><strong>http://bit.ly/KINGSHOES_map</strong></a
+                          >
+                        </p>
+
+                        <p>
+                          ☎️&nbsp;<strong
+                            >Hotline Bán Hàng: 0909.300.746 -
+                            0909.45.0001</strong
+                          >
+                        </p>
+
+                        <p>
+                          ☎️&nbsp;<strong>Hotline CSKH: 0902.368.001</strong>
+                        </p>
+                      </footer>
+                    </div>
+                  </div>
+                  <div
+                    class="col-lg-6 col-md-6 col-sm-12 col-xs-12 col-flex bg-form"
+                  >
+                    <div class="ps-section__header mb-50">
+                      <h2 class="ps-section__title ps-fomr" data-mask="Liên hệ">
+                        Liên hệ với chúng tôi
+                      </h2>
+                      <form
+                        class="ps-contact__form"
+                        method="post"
+                        name="formContact"
+                        id="formContact"
+                        onsubmit="return lienHe(this,'lien-he','Yêu cầu liên hệ của bạn đã được gửi.','Chúng tôi sẽ sớm liên hệ với bạn.','Đã xảy ra lỗi trong quá trình gửi.','Xác Nhận','Sai định dạng Email','Email bạn nhập không đúng định dạng.','contact_form');"
+                      >
+                        <div class="row">
+                          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <div class="form-group">
+                              <label>Họ tên <sub>*</sub></label>
+                              <input
+                                class="form-control"
+                                type="text"
+                                name="txtHoTen"
+                                placeholder=""
+                                required=""
+                              />
+                            </div>
+                          </div>
+                          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <div class="form-group">
+                              <label>Email <sub>*</sub></label>
+                              <input
+                                class="form-control"
+                                type="text"
+                                name="txtEmail"
+                                id="txtEmail"
+                                placeholder=""
+                                onclick="enterCheckEmail(txtEmail);"
+                                onchange="return KiemTraEmailAll('sub','txtEmail','Email bạn nhập không hợp lệ','Xác Nhận');"
+                                required=""
+                              />
+                            </div>
+                          </div>
+                          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <div class="form-group">
+                              <label>Số điện thoại <sub>*</sub></label>
+                              <input
+                                class="form-control"
+                                type="text"
+                                placeholder=""
+                                name="txtSoDienThoai"
+                                onkeydown="return inputNumber(event)"
+                                required=""
+                              />
+                            </div>
+                          </div>
+                          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <div class="form-group">
+                              <label>Địa chỉ <sub>*</sub></label>
+                              <input
+                                class="form-control"
+                                type="text"
+                                name="txtDiaChi"
+                                placeholder=""
+                                required=""
+                              />
+                            </div>
+                          </div>
+                          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="form-group mb-25">
+                              <label>Ghi chú</label>
+                              <textarea
+                                class="form-control"
+                                rows="6"
+                                id="txtNoiDung"
+                                name="txtNoiDung"
+                              ></textarea>
+                            </div>
+                            <div class="form-group">
+                              <button type="submit" class="ps-btn">
+                                Gửi<i class="ps-icon-next"></i>
+                              </button>
+                              <button type="reset" class="ps-btn">
+                                Nhập lại<i class="ps-icon-next"></i>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="subscribe">
+      <div class="container">
+        <div class="row-subscribe">
+          <div class="column-left">
+            <h3><i class="fas fa-envelope"></i>ĐĂNG KÍ NHẬN CODE</h3>
+          </div>
+          <div class="column-center">
+            <div class="form">
+              <input
+                class="form-input"
+                type="text"
+                placeholder="Nhập email nhận tin"
+              />
+              <a href="#" class="sub">ĐĂNG KÝ</a>
+            </div>
+          </div>
+          <div class="column-right">
+            <p class="text">
+              ...Nhận Ngay <span> VOUCHER 100k </span> từ chúng tôi.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+      <div class="container">
+        <div class="footer top">
+          <div class="row">
+            <div class="col-4">
+              <h3>Thông tin liên hệ</h3>
+              <p><strong>Địa chỉ:</strong></p>
+              <p><strong>Email:</strong></p>
+            </div>
+            <div class="col-4">
+              <div class="row">
+                <div class="col-6">
+                  <h3>Hỗ trợ khách hàng</h3>
+                  <p><strong>Chăm sóc khách hàng</strong></p>
+                  <p><strong>Thanh toán</strong></p>
+                  <p><strong>Hướng dẫn mua hàng</strong></p>
+                </div>
+                <div class="col-6">
+                  <h3>Chính sách</h3>
+                  <p><strong>Chế độ bảo hành</strong></p>
+                  <p><strong>Chính sách đổi hàng</strong></p>
+                  <p><strong>Bảo mật thông tin</strong></p>
+                  <p><strong>Chính sách giao nhận</strong></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <h3>Fanpage</h3>
+              <div
+                class="fb-page"
+                data-href="https://www.facebook.com/GiayAuthentic.KingShoes.vn/"
+                data-tabs="timeline"
+                data-width="440"
+                data-height="190"
+                data-small-header="false"
+                data-adapt-container-width="true"
+                data-hide-cover="false"
+                data-show-facepile="true"
+              >
+                <blockquote
+                  cite="https://www.facebook.com/GiayAuthentic.KingShoes.vn/"
+                  class="fb-xfbml-parse-ignore"
+                >
+                  <a href="https://www.facebook.com/GiayAuthentic.KingShoes.vn/"
+                    >KingShoes.vn</a
+                  >
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="bottom">
+            <p><i class="far fa-copyright"></i> Bản quyền thuộc về</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer-mobile">
+      <div class="container-mobile">
+        <div class="content-footer">
+          <h3>THÔNG TIN LIÊN HỆ</h3>
+          <p>KINGSHOES.VN Trang thông tin chính thức</p>
+          <p>Địa chỉ:</p>
+          <p>Email:</p>
+          <h4>FANPAGE</h4>
+        </div>
+      </div>
+    </section>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    <script src="javascript.js"></script>
+  </body>
+</html>
